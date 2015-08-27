@@ -40,7 +40,7 @@
 // #define USER_COLOR_07 0xccccc6 /* white dark    */
 // #define USER_COLOR_15 0xf8f8f2 /* white light   */
 
-#define COLOR_TEXT_BOLD        "red"
+#define COLOR_TEXT_BOLD        "#FEED6C"
 #define COLOR_TEXT_DIM         "#FFFF00"
 #define COLOR_TEXT_HIGHLIGHTED "green"
 
@@ -62,11 +62,11 @@
 
 #define CURSOR_BLINKS          TRUE
 #define CURSOR_COLOR           "green"
-#define CURSOR_SHAPE           UNDERLINE /* Options: BLOCK, IBEAM, UNDERLINE                  */
+#define CURSOR_SHAPE           BLOCK /* Options: BLOCK, IBEAM, UNDERLINE                  */
 #define DEFAULT_COMMAND        "/usr/sbin/fish"
 #define DEFAULT_DIRECTORY      g_get_current_dir()
 #define EXPORT_WINDOWID        TRUE
-#define FONT                   "Monospace 10"
+#define FONT                   "Monospace 9"
 #define FONT_ANTI_ALIAS        TRUE
 #define FONT_ENABLE_BOLD_TEXT  TRUE
 #define PROGRAM_WM_CLASS       TRUE
@@ -167,7 +167,7 @@
 // #define HOTKEY_MIMIC_SCROLL_DOWN     CTRL_SHIFT(GDK_J) || CTRL_SHIFT(GDK_j)
 // #define HOTKEY_OPEN_NEW_WINDOW       CTRL_SHIFT(GDK_N) || CTRL_SHIFT(GDK_n)
 
-#define HOTKEY_RESET_TERMINAL        CTRL_SHIFT(GDK_R) || CTRL_SHIFT(GDK_r)
+#define HOTKEY_RESET_TERMINAL        CTRL_SHIFT(GDK_K) || CTRL_SHIFT(GDK_k)
 #define HOTKEY_RESET_AND_CLEAR       CTRL_SHIFT(GDK_L) || CTRL_SHIFT(GDK_l)
 
 // #define HOTKEY_SATURATION_DIALOG     CTRL_SHIFT(GDK_X) || CTRL_SHIFT(GDK_x)
@@ -179,7 +179,7 @@
 #define HOTKEY_SEARCH_STRING         CTRL_SHIFT(GDK_Q) || CTRL_SHIFT(GDK_q)
 #define HOTKEY_SEARCH_PREVIOUS       CTRL_SHIFT(GDK_G) || CTRL_SHIFT(GDK_g)
 #define HOTKEY_SEARCH_NEXT           CTRL(GDK_g) || CTRL(GDK_G)
-#define        SEARCH_CASE_SENSITIVE TRUE
+#define        SEARCH_CASE_SENSITIVE FALSE
 
 // #define    HOTKEY_TAB_ADD               CTRL_SHIFT(GDK_T) || CTRL_SHIFT(GDK_t)
 // #define    HOTKEY_TAB_REMOVE            CTRL_SHIFT(GDK_W) || CTRL_SHIFT(GDK_w)
