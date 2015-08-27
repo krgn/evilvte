@@ -1,0 +1,10 @@
+misc/evilvte.1
+src/config.mk
+src/custom.h
+src/evilvte
+src/evilvte.c
+src/evilvte.h
+src/evilvte.o
+src/install.sh
+src/showvte
+src/uninstall.sh
