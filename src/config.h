@@ -21,7 +21,7 @@
 #define CLOSE_SAFELY      FALSE
 #define COLOR_BACKGROUND  "black"
 #define COLOR_FOREGROUND  "#eeeeee"
-#define COLOR_STYLE       ZENBURN_DARK
+#define COLOR_STYLE       HOLO
 
 // #define USER_COLOR_00 0x1b1d1e /* black dark    */
 // #define USER_COLOR_08 0x505354 /* black light   */
