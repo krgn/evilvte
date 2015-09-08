@@ -158,9 +158,9 @@
 // #define HOTKEY_COLOR_BACKGROUND      CTRL_SHIFT(GDK_B) || CTRL_SHIFT(GDK_b)
 // #define HOTKEY_EDIT_ENCODING         CTRL_SHIFT(GDK_U) || CTRL_SHIFT(GDK_u)
 
-#define HOTKEY_FONT_BIGGER             CTRL(GDK_KP_Add)
-#define HOTKEY_FONT_SMALLER            CTRL(GDK_KP_Subtract)
-#define HOTKEY_FONT_DEFAULT_SIZE       CTRL(GDK_KP_0)
+#define HOTKEY_FONT_BIGGER             CTRL(GDK_KEY_plus)
+#define HOTKEY_FONT_SMALLER            CTRL(GDK_KEY_underscore)
+#define HOTKEY_FONT_DEFAULT_SIZE       CTRL(GDK_KEY_parenright)
 
 // #define HOTKEY_FONT_SELECT           CTRL_SHIFT(GDK_F) || CTRL_SHIFT(GDK_f)
 // #define HOTKEY_MIMIC_SCROLL_UP       CTRL_SHIFT(GDK_K) || CTRL_SHIFT(GDK_k)
@@ -177,9 +177,9 @@
 /* #define HOTKEY_SCROLL_ONE_PAGE_UP    CTRL(GDK_k) || CTRL(GDK_K) */
 /* #define HOTKEY_SCROLL_ONE_PAGE_DOWN  CTRL(GDK_j) || CTRL(GDK_J) */
 
-#define HOTKEY_SEARCH_STRING           CTRL_SHIFT(GDK_Q) || CTRL_SHIFT(GDK_q)
-#define HOTKEY_SEARCH_PREVIOUS         CTRL_SHIFT(GDK_G) || CTRL_SHIFT(GDK_g)
-#define HOTKEY_SEARCH_NEXT             CTRL(GDK_g) || CTRL(GDK_G)
+#define HOTKEY_SEARCH_STRING           CTRL_SHIFT(GDK_S) || CTRL_SHIFT(GDK_s)
+#define HOTKEY_SEARCH_PREVIOUS         CTRL_SHIFT(GDK_KEY_numbersign)
+#define HOTKEY_SEARCH_NEXT             CTRL_SHIFT(GDK_KEY_asterisk)
 #define        SEARCH_CASE_SENSITIVE   FALSE
 
 // #define    HOTKEY_TAB_ADD               CTRL_SHIFT(GDK_T) || CTRL_SHIFT(GDK_t)
