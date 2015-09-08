@@ -19,7 +19,7 @@
 #define BELL_URGENT       TRUE
 #define CLOSE_DIALOG      FALSE
 #define CLOSE_SAFELY      FALSE
-#define COLOR_BACKGROUND  "black"
+#define COLOR_BACKGROUND  "#141414"
 #define COLOR_FOREGROUND  "#eeeeee"
 #define COLOR_STYLE       HOLO
 
@@ -66,7 +66,7 @@
 #define DEFAULT_COMMAND        "/usr/sbin/fish"
 #define DEFAULT_DIRECTORY      g_get_current_dir()
 #define EXPORT_WINDOWID        TRUE
-#define FONT                   "Monospace 9"
+#define FONT                   "Ubuntu Mono 9"
 #define FONT_ANTI_ALIAS        TRUE
 #define FONT_ENABLE_BOLD_TEXT  TRUE
 #define PROGRAM_WM_CLASS       TRUE
